@@ -1,0 +1,28 @@
+Timestamp,Gesture,FaceName,SafeHouseMode,Message
+2025-11-05 23:06:37,Help,Mheet,OFF,HELP gesture triggered
+2025-11-05 23:08:44,ThumbsUp,Mheet,ON,SafeHouse Mode turned ON
+2025-11-05 23:09:10,UnknownFace,Unknown,ON,Unknown person detected during SafeHouse Mode
+2025-11-06 11:56:22,Help,Mheet,OFF,HELP gesture triggered
+2025-11-06 11:56:36,Call,Mheet,OFF,CALL gesture triggered
+2025-11-06 11:56:41,Help,Mheet,OFF,HELP gesture triggered
+2025-11-06 11:57:01,ThumbsUp,Mheet,OFF,Access Denied
+2025-11-06 11:57:06,ThumbsDown,Mheet,OFF,Access Denied
+2025-11-06 12:41:08,Call,Pratham,OFF,CALL gesture triggered
+2025-11-06 12:41:14,Call,Pratham,OFF,CALL gesture triggered
+2025-11-06 13:25:31,Help,Mheet,OFF,HELP gesture triggered
+2025-11-06 13:25:42,ThumbsUp,Mheet,ON,SafeHouse Mode turned ON
+2025-11-06 13:25:49,ThumbsDown,Mheet,OFF,SafeHouse Mode turned OFF
+2025-11-06 13:25:54,Call,Mheet,OFF,CALL gesture triggered
+2025-11-06 13:26:05,Danger,Mheet,OFF,DANGER gesture triggered
+2025-11-06 13:26:31,ThumbsUp,Mheet,ON,SafeHouse Mode turned ON
+2025-11-06 13:26:47,UnknownFace,Unknown,ON,Unknown person detected during SafeHouse Mode
+2025-11-06 13:32:58,Call,Unknown,OFF,CALL gesture triggered
+2025-11-06 13:33:08,ThumbsUp,Mheet,ON,SafeHouse Mode turned ON
+2025-11-06 13:33:27,UnknownFace,Unknown,ON,Unknown person detected during SafeHouse Mode
+2025-11-08 10:56:48,Help,Pratham,OFF,HELP gesture triggered
+2025-11-08 10:57:13,Call,Pratham,OFF,CALL gesture triggered
+2025-11-08 10:57:47,Danger,Mheet,OFF,DANGER gesture triggered
+2025-11-08 10:58:30,ThumbsUp,Mheet,OFF,Access Denied
+2025-11-08 11:01:35,ThumbsUp,Pratham,ON,SafeHouse Mode turned ON
+2025-11-08 11:02:08,Call,Unknown,ON,CALL gesture triggered
+2025-11-08 11:02:18,UnknownFace,Unknown,ON,Unknown person detected during SafeHouse Mode
