@@ -137,7 +137,7 @@ Triggers a **danger alert sound**, sends **SMS alerts to both owner and police**
 
 ### 👍 Thumbs Up
 <p align="center">
-  <img src="https://github.com/PrathamRajendraPednekar/SafeHomeCam/blob/main/Images/Thumpsup.png" width="250"/>
+  <img src="https://github.com/PrathamRajendraPednekar/SafeHomeCam/blob/main/Images/Thumpus.png" width="250"/>
 </p>
 
 Activates **SafeHouse Mode** (authorized user only).  
@@ -147,7 +147,7 @@ Once enabled, unknown faces are continuously monitored.
 
 ### 👎 Thumbs Down
 <p align="center">
-  <img src="https://github.com/PrathamRajendraPednekar/SafeHomeCam/blob/main/Images/ThumpsDown.png" width="250"/>
+  <img src="https://github.com/PrathamRajendraPednekar/SafeHomeCam/blob/main/Images/ThumpusDown.png" width="250"/>
 </p>
 
 Deactivates **SafeHouse Mode** (authorized user only), restoring normal monitoring behavior.
