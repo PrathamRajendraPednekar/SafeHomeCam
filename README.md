@@ -127,12 +127,50 @@ Once enabled, unknown faces are continuously monitored.
 
 ### 👎 Thumbs Down
 <p align="center">
-  <img src="https://github.com/PrathamRajendraPednekar/SafeHomeCam/blob/main/Images/ThumpusDown.png" width="800"/>
+  <img src="https://raw.githubusercontent.com/PrathamRajendraPednekar/SafeHomeCam/main/Images/ThumpusDown.png" width="800"/>
 </p>
 
-Deactivates **SafeHouse Mode** (authorized user only), restoring normal monitoring behavior.
+Deactivates **SafeHouse Mode**, restoring normal monitoring behavior.
+
+🔐 **Access Control:**  
+SafeHouse Mode **can only be turned ON or OFF by the owner (authorized person)**.  
+Any gesture performed by an **unauthorized or unknown individual is ignored** and cannot change the system state.
 
 ---
+
+### 📸 Intruder Image Capture (SafeHouse Mode)
+
+When **SafeHouse Mode is ON**, the system actively monitors entries into the house.
+
+- If an **unknown person** is detected:
+  - 📷 The system automatically captures **5 images** of the individual
+  - Images are captured at different moments to improve identification accuracy
+  - ❌ **Authorized users are excluded** from image capture
+- This ensures:
+  - Strong privacy for trusted users
+  - Reliable evidence collection for intrusions
+
+---
+
+### 📊 Gesture Activity Logging (`gesture_log.csv`)
+
+All gesture-based actions are continuously recorded in a log file:
+
+- File name: **`gesture_log.csv`**
+- Logs include:
+  - 🕒 **Date & time**
+  - ✋ **Detected gesture**
+  - ⚙️ **Action triggered**
+  - 👤 **User status (authorized / unknown)**
+- Useful for:
+  - Daily activity monitoring
+  - Security audits
+  - Debugging gesture recognition
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/PrathamRajendraPednekar/SafeHomeCam/main/Images/Records.png" width="800"/>
+</p>
+
 
 ## 🧰 Technologies Used
 
