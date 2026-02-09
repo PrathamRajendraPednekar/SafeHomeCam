@@ -77,7 +77,7 @@ By integrating gesture recognition, face authentication, and image enhancement t
 
 ### 🔧 Tech1 – Gesture Dataset Creation
 <p align="center">
-  <img src="https://github.com/PrathamRajendraPednekar/SafeHomeCam/blob/main/Images/Tech1.png" width="600"/>
+  <img src="https://github.com/PrathamRajendraPednekar/SafeHomeCam/blob/main/Images/Tech1.png" width="400"/>
 </p>
 
 The hand gesture recognition model was trained using **Google Teachable Machine**.  
