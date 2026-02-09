@@ -110,7 +110,7 @@ The system displays the detected user name, enabling secure access control for S
 
 ### 🆘 Help
 <p align="center">
-  <img src="https://github.com/PrathamRajendraPednekar/SafeHomeCam/blob/main/Images/help.png" width="250"/>
+  <img src="https://github.com/PrathamRajendraPednekar/SafeHomeCam/blob/main/Images/help.png" width="600"/>
 </p>
 
 Triggers an **audio alarm** and sends an **SMS alert** to the owner, indicating immediate assistance is required.
