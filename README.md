@@ -1,117 +1,175 @@
-# SafeHomeCam
+# 🏠 SafeHomeCam – AI-Based Smart Home Security System
 
-**SafeHomeCam** is an AI-based home security system that uses real-time face recognition and hand gesture detection to enhance safety. It triggers alarms, SMS alerts, and emergency calls using computer vision, deep learning, and IoT-based automation.
+SafeHomeCam is an **AI-powered home security system** that uses **real-time face recognition and hand gesture detection** to trigger safety actions such as alarms, SMS alerts, and emergency calls.  
+It integrates **Computer Vision, Deep Learning, and IoT-based alerting** to enhance household safety.
 
-Youtube Link :- https://www.youtube.com/watch?v=X_qj2YTjG6g&t=78s
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=X_qj2YTjG6g&t=78s">
+    <img src="https://img.icons8.com/color/96/youtube-play.png" width="60"/>
+  </a>
+</p>
 
 ---
 
-## Table of Contents
+## 📑 Table of Contents
 1. [Introduction](#introduction)
 2. [Hypothesis](#hypothesis)
 3. [Objectives](#objectives)
-4. [Technologies Used](#technologies-used)
-5. [Procedure](#procedure)
-6. [How to Run](#how-to-run)
-
-
----
-
-## Introduction
-SafeHomeCam is an AI-based home security system designed to recognize faces and hand gestures to trigger specific safety actions. It combines computer vision, deep learning, and IoT alerting mechanisms to ensure home safety and real-time responsiveness.
-
-The system features:  
-- **Hand gesture recognition** via a trained CNN model.  
-- **Face recognition** for user authentication.  
-- **Edge detection and image enhancement** for clear input.  
-- **Audio alerts** and **Twilio integration** for message/call alerts.
-
-This project demonstrates how artificial intelligence can be integrated into home automation systems for real-time surveillance, access control, and alert generation.
+4. [System Features](#system-features)
+5. [Model Training & Recognition](#model-training--recognition)
+6. [Gesture-Based Actions](#gesture-based-actions)
+7. [Technologies Used](#technologies-used)
+8. [Installation & Setup](#installation--setup)
+9. [How to Run](#how-to-run)
+10. [Results](#results)
+11. [Conclusion](#conclusion)
+12. [Future Scope](#future-scope)
+13. [References](#references)
 
 ---
 
-## Hypothesis
-By integrating gesture and face recognition modules with edge detection and safety automation, it is hypothesized that:  
+## 📌 Introduction
 
-- The system can accurately recognize hand gestures (Help, Call, Danger, Thumbs Up/Down).  
-- Unauthorized users will be detected and trigger alarms during SafeHouse Mode.  
-- Edge-enhancement and contrast techniques will improve detection accuracy in varied lighting conditions.  
-- Overall, SafeHomeCam will enhance home safety through a reliable and intelligent camera-based monitoring system.
+SafeHomeCam is an AI-based surveillance system designed to recognize **faces and hand gestures** to trigger predefined safety actions in real time.
 
----
+The system combines:
+- Hand gesture recognition using a CNN model  
+- Face recognition for user authentication  
+- Image enhancement using gamma correction and edge detection  
+- Audio alerts and optional **Twilio-based SMS/call alerts**
 
-## Objectives
-- Implement real-time gesture and face recognition using OpenCV and cvzone.  
-- Enhance camera input using Gamma correction and edge detection.  
-- Activate audio and alert mechanisms on recognizing danger gestures or unknown faces.  
-- Design a scalable, easy-to-use safety system for smart homes.
+This project demonstrates how AI can be effectively integrated into **smart home automation and security systems**.
 
 ---
 
-## Technologies Used
+## 🧪 Hypothesis
 
+By integrating gesture recognition, face authentication, and image enhancement techniques:
 
-  numpy==1.26.4
-  mediapipe==0.10.14
-  tensorflow==2.15.0
-  cvzone==1.6.1
-  opencv-contrib-python==4.9.0.80
-  playsound
-  twilio
+- Hand gestures (Help, Call, Danger, Thumbs Up/Down) can be detected accurately  
+- Unauthorized users can be detected during SafeHouse Mode  
+- Edge detection and gamma correction improve recognition in low-light conditions  
+- Overall home security can be enhanced through intelligent monitoring  
 
-## Procedure
-1. Setup Environment
-    - Install dependencies using pip:
-        - pip install -r requirements.txt
-    - Ensure your webcam is connected and ready.
+---
 
-2. Face Recognition
-    - Capture and encode known user faces.
-    - Compare live faces with stored encodings.
-    - Unknown faces trigger alerts during SafeHouse Mode.
+## 🎯 Objectives
 
-3. Hand Gesture Detection
-    - Detect hands using cvzone’s HandDetector.
-    - Preprocess images: grayscale, gamma correction, contrast stretching, edge detection.
-    - Classify gestures using the pre-trained CNN model.
+- Implement real-time face and gesture recognition  
+- Improve input quality using image preprocessing techniques  
+- Trigger alerts for danger or unauthorized access  
+- Build a scalable and intelligent home security solution  
 
-4. SafeHouse Mode
-    - Activate with Thumbs Up, deactivate with Thumbs Down (owner only).
-    - Alerts triggered for Help, Call, Danger gestures.
+---
 
-5. Alert Mechanism
-    - Play audio alerts (alarm.mp3, siren.mp3, Danger.wav).
-    - Optionally send SMS/call via Twilio API.
+## ⚙️ System Features
 
-## How to Run
+- 🔐 Face Recognition for authentication  
+- ✋ Hand Gesture Detection (CNN-based)  
+- 🏡 SafeHouse Mode (ON/OFF via gestures)  
+- 🚨 Audio alarms and emergency alerts  
+- 📩 SMS & 📞 Call alerts using Twilio  
+- 📊 CSV-based event logging  
 
-1. Clone the repository:
-    - git clone https://github.com/PrathamRajendraPednekar/SafeHomeCam.git
-    - cd SafeHomeCam
+---
 
+## 🧠 Model Training & Recognition
 
-2. Install all required dependencies:
-    - pip install -r requirements.txt
+### 🔧 Tech1 – Gesture Dataset Creation
+<p align="center">
+  <img src="assets/tech1.png" width="600"/>
+</p>
 
+The hand gesture recognition model was trained using **Google Teachable Machine**.  
+Multiple images for each gesture were captured under varying lighting conditions and hand orientations to improve robustness.
 
-3. Add known user faces to the faces directory (or wherever the face data is stored).
+---
 
-4. Run the main program:
-    - python main.py
+### 🔧 Tech2 – Model Export & Integration
+<p align="center">
+  <img src="assets/tech2.png" width="600"/>
+</p>
 
+The trained model was exported from **Teachable Machine** in **Keras (.h5)** format along with a labels file.  
+This model is integrated into the system using **cvzone’s ClassificationModule** for real-time prediction.
 
-5. Interact with the system using hand gestures and watch for real-time alerts.
-    - Thumbs Up → Activate SafeHouse Mode
-    - Thumbs Down → Deactivate SafeHouse Mode (owner only)
-    - Help / Call / Danger gestures → Trigger alerts
+---
 
-6. Optional: Configure Twilio credentials in your code to enable SMS/call notifications.
+### 👤 Face1 – Face Recognition
+<p align="center">
+  <img src="assets/face1.png" width="300"/>
+</p>
 
+The face recognition module authenticates users using the **face_recognition** library.  
+Known faces are pre-encoded and compared with live webcam input.  
+The system displays the detected user name, enabling secure access control for SafeHouse Mode.
 
+---
 
+## ✋ Gesture-Based Actions
 
+### 🆘 Help
+<p align="center">
+  <img src="assets/help.png" width="250"/>
+</p>
 
+Triggers an **audio alarm** and sends an **SMS alert** to the owner, indicating immediate assistance is required.
 
+---
 
+### 📞 Call
+<p align="center">
+  <img src="assets/call.png" width="250"/>
+</p>
 
+Initiates an **emergency phone call** to the registered owner and sends an SMS notification.
 
+---
+
+### ⚠️ Danger
+<p align="center">
+  <img src="assets/danger.png" width="250"/>
+</p>
+
+Triggers a **danger alert sound**, sends **SMS alerts to both owner and police**, and initiates an emergency call.
+
+---
+
+### 👍 Thumbs Up
+<p align="center">
+  <img src="assets/thumbsup.png" width="250"/>
+</p>
+
+Activates **SafeHouse Mode** (authorized user only).  
+Once enabled, unknown faces are continuously monitored.
+
+---
+
+### 👎 Thumbs Down
+<p align="center">
+  <img src="assets/thumbsdown.png" width="250"/>
+</p>
+
+Deactivates **SafeHouse Mode** (authorized user only), restoring normal monitoring behavior.
+
+---
+
+## 🧰 Technologies Used
+
+- Python  
+- OpenCV  
+- cvzone  
+- MediaPipe  
+- TensorFlow / Keras  
+- NumPy  
+- face_recognition  
+- Twilio API  
+
+---
+
+## 🛠 Installation & Setup
+
+```bash
+git clone https://github.com/PrathamRajendraPednekar/SafeHomeCam.git
+cd SafeHomeCam
+pip install -r requirements.txt
