@@ -77,7 +77,7 @@ By integrating gesture recognition, face authentication, and image enhancement t
 
 ### 🔧 Tech1 – Gesture Dataset Creation
 <p align="center">
-  <img src="https://github.com/PrathamRajendraPednekar/SafeHomeCam/blob/main/Images/Tech1.png" width="700"/>
+  <img src="https://github.com/PrathamRajendraPednekar/SafeHomeCam/blob/main/Images/Tech1.png" width="800"/>
 </p>
 
 The hand gesture recognition model was trained using **Google Teachable Machine**.  
@@ -87,7 +87,7 @@ Multiple images for each gesture were captured under varying lighting conditions
 
 ### 🔧 Tech2 – Model Export & Integration
 <p align="center">
-  <img src="https://github.com/PrathamRajendraPednekar/SafeHomeCam/blob/main/Images/Tech2.png" width="600"/>
+  <img src="https://github.com/PrathamRajendraPednekar/SafeHomeCam/blob/main/Images/Tech2.png" width="800"/>
 </p>
 
 The trained model was exported from **Teachable Machine** in **Keras (.h5)** format along with a labels file.  
@@ -97,7 +97,7 @@ This model is integrated into the system using **cvzone’s ClassificationModule
 
 ### 👤 Face1 – Face Recognition
 <p align="center">
-  <img src="https://github.com/PrathamRajendraPednekar/SafeHomeCam/blob/main/Images/Face1.png" width="300"/>
+  <img src="https://github.com/PrathamRajendraPednekar/SafeHomeCam/blob/main/Images/Face1.png" width="800"/>
 </p>
 
 The face recognition module authenticates users using the **face_recognition** library.  
@@ -119,7 +119,7 @@ Triggers an **audio alarm** and sends an **SMS alert** to the owner, indicating 
 
 ### 📞 Call
 <p align="center">
-  <img src="https://github.com/PrathamRajendraPednekar/SafeHomeCam/blob/main/Images/call.png" width="250"/>
+  <img src="https://github.com/PrathamRajendraPednekar/SafeHomeCam/blob/main/Images/call.png" width="80"/>
 </p>
 
 Initiates an **emergency phone call** to the registered owner and sends an SMS notification.
@@ -128,7 +128,7 @@ Initiates an **emergency phone call** to the registered owner and sends an SMS n
 
 ### ⚠️ Danger
 <h3 align="center">
-  <img src="https://github.com/PrathamRajendraPednekar/SafeHomeCam/blob/main/Images/Danger.png" width="250"/>
+  <img src="https://github.com/PrathamRajendraPednekar/SafeHomeCam/blob/main/Images/Danger.png" width="800"/>
 </h3>
 
 Triggers a **danger alert sound**, sends **SMS alerts to both owner and police**, and initiates an emergency call.
@@ -137,7 +137,7 @@ Triggers a **danger alert sound**, sends **SMS alerts to both owner and police**
 
 ### 👍 Thumbs Up
 <p align="center">
-  <img src="https://github.com/PrathamRajendraPednekar/SafeHomeCam/blob/main/Images/Thumpus.png" width="250"/>
+  <img src="https://github.com/PrathamRajendraPednekar/SafeHomeCam/blob/main/Images/Thumpus.png" width="800"/>
 </p>
 
 Activates **SafeHouse Mode** (authorized user only).  
@@ -147,7 +147,7 @@ Once enabled, unknown faces are continuously monitored.
 
 ### 👎 Thumbs Down
 <p align="center">
-  <img src="https://github.com/PrathamRajendraPednekar/SafeHomeCam/blob/main/Images/ThumpusDown.png" width="250"/>
+  <img src="https://github.com/PrathamRajendraPednekar/SafeHomeCam/blob/main/Images/ThumpusDown.png" width="800"/>
 </p>
 
 Deactivates **SafeHouse Mode** (authorized user only), restoring normal monitoring behavior.
