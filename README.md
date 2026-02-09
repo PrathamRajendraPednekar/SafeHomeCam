@@ -119,7 +119,7 @@ Triggers an **audio alarm** and sends an **SMS alert** to the owner, indicating 
 
 ### 📞 Call
 <p align="center">
-  <img src="https://github.com/PrathamRajendraPednekar/SafeHomeCam/blob/main/Images/call.png" width="80"/>
+  <img src="https://github.com/PrathamRajendraPednekar/SafeHomeCam/blob/main/Images/call.png" width="800"/>
 </p>
 
 Initiates an **emergency phone call** to the registered owner and sends an SMS notification.
