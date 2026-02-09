@@ -127,9 +127,9 @@ Initiates an **emergency phone call** to the registered owner and sends an SMS n
 ---
 
 ### ⚠️ Danger
-<p align="center">
+<h3 align="center">
   <img src="https://github.com/PrathamRajendraPednekar/SafeHomeCam/blob/main/Images/Danger.png" width="250"/>
-</p>
+</h3>
 
 Triggers a **danger alert sound**, sends **SMS alerts to both owner and police**, and initiates an emergency call.
 
