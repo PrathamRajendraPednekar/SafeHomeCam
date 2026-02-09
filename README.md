@@ -9,24 +9,6 @@ It integrates **Computer Vision, Deep Learning, and IoT-based alerting** to enha
   </a>
 </p>
 
----
-
-## 📑 Table of Contents
-1. [Introduction](#introduction)
-2. [Hypothesis](#hypothesis)
-3. [Objectives](#objectives)
-4. [System Features](#system-features)
-5. [Model Training & Recognition](#model-training--recognition)
-6. [Gesture-Based Actions](#gesture-based-actions)
-7. [Technologies Used](#technologies-used)
-8. [Installation & Setup](#installation--setup)
-9. [How to Run](#how-to-run)
-10. [Results](#results)
-11. [Conclusion](#conclusion)
-12. [Future Scope](#future-scope)
-13. [References](#references)
-
----
 
 ## 📌 Introduction
 
