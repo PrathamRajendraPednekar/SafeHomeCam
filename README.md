@@ -3,9 +3,8 @@
 SafeHomeCam is an **AI-powered smart home security system** that uses **real-time face recognition and hand gesture detection** to trigger safety actions such as alarms, SMS alerts, and emergency calls.  
 It integrates **Computer Vision, Deep Learning, and IoT-based alerting** to enhance household safety.
 
-<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
 <p align="center">
-  <h4>🎥 YouTube Demo: https://www.youtube.com/watch?v=MvPr1x2mDaw&t=19s</h4>
+   <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"/><h4>🎥 YouTube Demo: https://www.youtube.com/watch?v=MvPr1x2mDaw&t=19s</h4>
 </p>
 
 ---
