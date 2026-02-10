@@ -4,11 +4,11 @@ SafeHomeCam is an **AI-powered smart home security system** that uses **real-tim
 It integrates **Computer Vision, Deep Learning, and IoT-based alerting** to enhance household safety.
 
 <p align="center">
-  <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"/> : 
   <a href="https://www.youtube.com/watch?v=MvPr1x2mDaw&t=19s">
-    https://www.youtube.com/watch?v=MvPr1x2mDaw&t=19s
+    <img src="https://img.shields.io/badge/YouTube%20Demo-Watch%20Video-red?style=for-the-badge&logo=youtube"/>
   </a>
 </p>
+
 
 
 
